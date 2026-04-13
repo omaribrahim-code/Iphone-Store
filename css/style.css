@@ -1,0 +1,1999 @@
+ 
+
+.sec1{
+    height: 65px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    z-index:1001;
+    top:0;
+    left:0;
+    
+}
+.search{
+    background-color: white;
+    height:40px;
+    width:600px;
+    margin-left: 90px;
+    margin-top: -35px;
+     border-radius: 10px;
+}
+.home{
+    font-size: 30px;
+    color: white;
+    margin-top:20px;
+    margin-left: 40px;
+}
+.search1{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+    color:blueviolet;
+}
+.sec1 input{
+    margin-top: -30px;
+    margin-left:15px;
+    width: 530px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    
+    
+}
+.list{
+    display: inline-flex;
+    list-style-type:none;
+    margin:-40px 0px 0px 900px;
+    
+}
+.a1{
+    color:white;
+    margin-right: 100px;
+    text-decoration: none;
+    position: relative;
+    font-size: 25px;
+
+}
+.a1::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom:-5px;
+    left:0;
+    transition: .3s;
+    background-color:white;
+}
+.a1:hover::after{
+    width:100%;
+   
+}
+.dropdown{
+    position: relative;
+
+}
+.dropdownlist{
+    list-style-type: none;
+    position: absolute;
+    background-color:blueviolet;
+    display: none;
+    top:100%;
+    padding:10px 0px;
+    left:0;
+    list-style: none;
+    width: 220px;
+    border-radius: 5px;
+    z-index: 1000px;
+    font-size: 20px;
+  
+}
+.dropdownlist li{
+    padding:8px 20px;
+}
+.dropdownlist li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding:5px 20px;
+}
+.dropdown:hover .dropdownlist{
+    display:inline-block;
+}
+.dropdownlist li a::after{
+    content:"";
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    width:0;
+    background-color:white;
+    transition:.3s;
+}
+.dropdownlist li a:hover::after{
+    width:80%;
+}
+/*تم الانتهاء من اول سكشن///////////ن////////////////////////*/
+.sec2{      
+    height:900px;
+    width:100%;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.11\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 65px;
+    text-align: center;
+  
+
+}
+.creative{
+    font-size: 50px;
+    padding-top: 350px;
+    
+}
+.sec2 p{
+    opacity:.7;
+    word-spacing: 3px;
+    letter-spacing: .7px;
+    color: white;
+    opacity: .7;
+    position:relative;
+  
+}
+.creative:active{
+    background-color: blue;   
+    opacity:.3;
+}
+.sec2 p:active::before{
+    content:""l;
+    position:absolute;
+    left:0;
+    bottom:0;
+
+    background-color: blue;
+    opacity: .3;
+    width: 500px;
+    height:25px;
+
+   }
+.btn1{
+    width:200px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 70px;
+     margin-top: 30px;
+
+
+}
+.btn1:hover{
+    opacity: .4;
+    width:250px;
+    height:50px;
+    background-color: blueviolet;
+    color:azure;
+}
+.btn2{
+   width:200px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color:white;
+    
+}
+.btn2:hover{
+    opacity: .4;
+     width:250px;
+    height:50px;
+    background-color:gray;
+    color:blanchedalmond;
+
+}
+   
+/*///////////////////////السكشن التاني تم الانتهاء منه//////////*/
+
+.sec3{
+    height:800;
+    width:100%;
+    background-color: white;
+  
+}
+.welcom{
+    text-align: center;
+    font-size: 50px;
+    margin-top:150px;
+}
+.line{
+    width:100px;
+    border: 2px solid blueviolet;
+    border-radius: 2px;
+    margin-left: 950px;
+    margin-top: -20px;
+}
+
+.setting{
+    width:25%;
+    height:350px;
+    border:2px solid black;
+    float:left;
+    margin-right: 5%;
+    margin-left: 7.5%;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+  
+}
+.gears{
+  
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 50px;
+}
+.setting::after{
+    content: "";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+
+}
+.setting:hover::after{
+    width:100%;
+    height:100%;
+    transition: 1s;
+    background-color: blueviolet;
+    opacity: .3;
+
+}
+
+
+.edit{
+    width:25%;
+    height:350px;
+    border:2px solid black;
+    float:left;
+    margin-right: 5%;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    
+}
+.edit::after{
+    content: "";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+
+}
+.edit:hover::after{
+    width:100%;
+    height:100%;
+    transition: 1s;
+    background-color: blueviolet;
+    opacity: .3;
+
+}
+.wand{
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 50px;
+}
+.phone{
+    width:25%;
+    height:350px;
+    border:2px solid black;
+    float:left;
+      margin-top: 100px;
+      text-align: center;
+      position: relative;
+    
+    
+}
+.phone::after{
+    content: "";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+
+}
+.phone:hover::after{
+    width:100%;
+    height:100%;
+    transition: 1s;
+    background-color: blueviolet;
+    opacity: .3;
+
+}
+.mobile{
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 50px;}
+
+
+
+.fully{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.ai{
+    margin-top: -10px;
+    color: blueviolet;
+}
+.read{
+    padding-top:40px;
+    color: blueviolet;
+    font-size: 25px;
+   
+
+}
+.perfume{
+    letter-spacing: 3.5px;}
+
+/*////////////تم الانتهاء من السكشن التالت/////*/
+.sec4{
+    height:1000px;
+    width:100%;
+  
+    background-color:rgba(110, 30, 110, .3)
+    
+}
+.work{
+    text-align: center;
+    
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: -80px;
+}
+.line2{
+    height:0;
+    width:100px;
+    border: 2px solid blueviolet;
+    margin-left: 910px;
+    margin-top: -25px;
+    border-radius: 5px;
+}
+       
+.sec41{
+    height:350px;
+    width:400;
+    border:2px solid black;
+    float: left;
+    margin-left:200px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.08.07\ AM.jpeg);
+     background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.sec41:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+      color: white;
+
+
+}
+.sec41:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+      color: white;
+
+}
+.sec41:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+   
+  
+}
+.sec41:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+  
+   
+
+}
+.sec42{
+    height:350px;
+    width:400px;
+    border:2px solid black;
+    float: left;
+    margin-left: 100px;
+        margin-top: 50px;
+          margin-right: 50px;
+            background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.08.13\ AM.jpeg);
+
+    background-size: cover;
+    background-position: center;
+     text-align: center;
+     position:relative
+    
+
+    
+
+}
+.sec42:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+
+
+}
+.sec42:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+
+}
+.sec42:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+   
+    
+
+}
+.sec42:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+   
+   
+
+}
+.sec43{
+    height:350px;
+    width:400px;
+    border:2px solid black;
+    margin-left: 1290px;  
+      margin-top: 50px;
+
+  margin-right: 50px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.08.22\ AM.jpeg);
+     background-size: cover;
+    background-position: center;
+     text-align: center;
+     position: relative;
+   
+
+}
+.sec43:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+      color: white;
+
+
+}
+.sec43:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+      color: white;
+
+}
+.sec43:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+    
+    
+
+}
+.sec43:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+   
+   
+
+}
+
+
+.sec44{
+    height:350px;
+    width:400px;
+    border:2px solid black;
+    float: left;
+    margin-left: 200px;
+       margin-top: 20px;
+
+ margin-right: 50px;
+  background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.08.32\ AM.jpeg);
+   background-size: cover;
+    background-position: center;
+     text-align: center;
+       position: relative;
+   
+}
+.sec44:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+      color: white;
+}
+.sec44:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+      color: white;
+
+}
+.sec44:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+    
+    
+
+}
+.sec44:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+  
+   
+
+}
+.sec45{
+    height:350px;
+    width:400px;
+    border:2px solid black;
+    float: left;
+    margin-left: 100px;
+       margin-top: 20px;
+         margin-right:50px;
+           background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.07.52\ AM.jpeg);
+
+ background-size: cover;
+    background-position: center;
+     text-align: center;
+       position: relative;
+   
+
+}
+.sec45:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+      color:wheat;
+
+
+}
+.sec45:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+       color:wheat;
+
+}
+.sec45:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+   
+    
+
+}
+.sec45:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+    
+   
+
+}
+.sec46{
+    height:350px;
+    width:400px;
+    border:2px solid black;
+   float: left;
+   margin-left: 1290px;
+       margin-top: -350px;
+
+           background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.07.43\ AM.jpeg);
+            background-size: cover;
+    background-position: center;
+     text-align: center;
+       position: relative;
+}
+.sec46:hover:hover .category{
+     opacity: 1;
+      margin-left: 120px;
+      padding-top: 50px;
+      color:white;}
+.sec46:hover .floral{
+     opacity: 1;
+     margin-top: 170;
+      margin-left: 100px;
+      color:white;
+
+}
+.sec46:hover .love{
+    opacity: 1;
+    margin-top: 250px;
+    
+    
+
+}
+.sec46:hover .point{
+     opacity: 1;
+     margin-top: 250px;
+     margin-left: -50px;
+   
+   
+
+}
+.category{
+    opacity:0;
+    position: absolute;
+    font-size: 30px;
+}
+.floral{
+    opacity: 0;
+  position: absolute;
+    margin-top:40px;
+}
+.love{
+  opacity: 0;
+  position: absolute;
+    font-size: 30px;
+    background-color: white;
+    width: 40px;
+    height: 30px;
+}
+.point{
+  opacity: 0;
+  position: absolute;
+  font-size: 30px;
+  background-color:white;
+    height: 30px;
+    width: 40px;
+   
+            
+
+}
+.love:hover{
+ 
+    color: red;
+    background-color: rgba(1, 0, 0, .7)
+}
+.point:hover{
+    
+ 
+    color:blue;
+    background-color: rgba(1, 0, 0, .7)
+
+}
+
+/*//////////تم الانتهاء من السكشن الرابع///////*/
+
+.sec5{
+    height:1000px;
+    width:100%;
+    background-color:white;
+    text-align: center;
+}
+.offer{
+    font-size: 50px;
+    padding-top: 100px;
+}
+.line3{
+    width:80px;
+    border:3px solid blueviolet;
+    border-radius: 2px;
+    margin-left: 950px;
+    margin-top: -25px;
+}
+.sec51{
+    width:450px;
+    height:300px;
+    
+    border:2px solid black;
+    border-radius: 5px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: relative;
+}
+.wide{
+    margin-top: -44px;
+    font-size: 35px;
+    margin-left: -40px;
+  
+}
+.inter{
+    margin-top: -20px;
+    font-size: 35px;
+    margin-left: -60px;
+}
+.perfume2{
+    margin-top: -20px;
+    font-size: 35px;
+    margin-left: -120px;
+}
+.explora{
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 60px;
+     opacity: .4;
+}
+
+
+.brands{
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: -20px;
+     opacity: .4;
+}
+
+.every{
+       margin-left: -120px;
+    font-size: 25px;
+    margin-top: -20px;
+     opacity: .4;}
+     .sec51:hover p{
+        opacity:1;
+     }
+
+.sec51::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec51:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+
+
+.sec52{
+     width:450px;
+    height:300px;
+    border:2px solid black;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+     position: relative;
+}
+.exclusive{
+     font-size: 35px;
+     margin-left: 35px;
+     margin-top: -30px;
+   
+}
+.fragrance{
+    font-size: 35px;
+     margin-left: -107px;
+     margin-top: -30px;     
+}
+.discover{
+  font-size: 20px;
+  opacity: .6;
+  margin-left: -50px;
+  margin-top: -20px;
+    letter-spacing: 1.3px;
+}
+.for{
+  font-size: 20px;
+  opacity: .6;
+  margin-left: -80px;
+  margin-top: -20px;
+    letter-spacing: 1.3px;
+}
+.unique{
+  font-size: 20px;
+    letter-spacing: 1px;
+  opacity: .6;
+  margin-left: -60px;
+  margin-top: -20px;
+}
+.eleg{
+  font-size: 20px;
+  opacity: .6;
+  margin-left: -210px;
+  margin-top: -20px;
+    letter-spacing: 1.3px;
+}
+ .sec52:hover p{
+        opacity:1;
+     }
+.sec52::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec52:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+
+.sec53{
+    width:450px;
+    height:300px;
+    border:2px solid black;
+float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+     position: relative;
+    
+}
+.easy{
+    font-size: 35px;
+    margin-top: -45px;
+    margin-left: 35px;
+}
+.shop{
+    font-size: 35px;
+    margin-top: -35px;
+    margin-left: 35px;
+ 
+}
+.enjoy{
+     font-size: 25px;
+     margin-top: -10px;
+
+     letter-spacing: 1.5px;
+     word-spacing: 1.5;
+     opacity: .4;
+}
+
+.experience{
+     font-size: 25px;
+     margin-top: -20px;
+
+       letter-spacing: 1.5px;
+       word-spacing: 1.5;
+     opacity: .4;
+}
+
+.design{
+     font-size: 25px;
+     margin-top: -25px;
+ 
+ 
+     letter-spacing: 1.5px;
+       word-spacing: 1.5;
+     opacity: .4;}
+ .sec53:hover p{
+        opacity:1;
+     }
+.sec53::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec53:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+.sec54{
+   width:450px;
+    height:300px;
+    border:2px solid black;
+    margin-top: 40px;
+    float: left;
+     margin-left: 150px;
+      position: relative;
+    
+}
+ .sec54:hover p{
+        opacity:1;
+     }
+.sec54::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec54:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+.sec55{
+    width:450px;
+    height:300px;
+    border:2px solid black;
+    float: left;
+     margin-top: 40px;
+      margin-left: 150px;
+       position: relative;
+}
+ .sec55:hover p{
+        opacity:1;
+     }
+.sec55::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec55:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+
+.sec56{
+    width:450px;
+    height:300px;
+    border:2px solid black;
+    float: left;
+     margin-top: 40px;
+      margin-left: 150px;
+       position: relative;
+}
+ .sec56:hover p{
+        opacity:1;
+     }
+.sec56::after{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+}
+.sec56:hover::after{
+    background-color: blueviolet;
+    opacity: .3;
+    width:100%;
+    height:100%;
+    transition: 1s;
+}
+.iconsec5{
+    margin-left: -350px;
+    margin-top: 40px;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+/*//////////تم الانتهاء من السكشن الخامس//////*/
+.sec6{
+    height:900px;
+    width:100%;
+    background-color: white;
+}
+.why{
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: 200px;
+
+}
+.line4{
+    width:100px;
+    border:3px solid blueviolet;
+    margin-top: -35px;
+    border-radius: 2px;
+    margin-left: 220px;
+}
+
+.not{
+    margin-left: 220px;
+    opacity: .6;
+}
+.hop{
+    margin-left: 220px;
+    opacity: .6;
+}
+.long{
+    margin-left: 220px;
+    opacity: .5;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.long::before {
+    content: "✔";
+    color:blueviolet;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.premium{
+    margin-left: 220px;
+    opacity: .5;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.premium::before {
+    content: "✔";
+      color:blueviolet;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.qualty{
+ margin-left: 220px;
+    opacity: .5;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.qualty::before {
+    content: "✔";
+      color:blueviolet;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.outstand{
+     margin-left: 220px;
+    opacity: .5;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+.outstand::before {
+    content: "✔";
+      color:blueviolet;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.flower{
+    height:600px;
+    width:600px;
+    border:2px solid black ;
+    margin-left:65%;
+    margin-top: -500px;
+   
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.08.07\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.unorderedlist1::marker{
+font-size: 70px;
+color: gray;
+}
+.unorderedlist1:hover::marker{
+    color: blue;
+    transition: .2;
+    
+}
+.unorderedlist1{
+  margin-right: 100px;
+}
+.unorderedlist{
+    display: inline-flex;
+    margin-left: 1500px;
+    margin-top: -10px;
+
+
+}
+/*//////////تم الانتهاء من السكشن السادس//////*/
+.sec7{
+    height:450px;
+    width:100%;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 1.12.28\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.people{
+    font-size: 60px;
+    color:white;
+padding-top: 150px;
+margin-left: 250px;
+display: flex;
+ 
+}
+.people:hover{
+    color:blueviolet;
+    font-size:70px ;
+}
+
+.number1
+{
+    font-size: 25px;
+    color: white;
+   padding-left: 250px;
+   margin-top:20px;
+   display: flex;
+    
+    
+}
+
+.clients1
+{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 230px;
+    display: flex;
+}
+
+.cup{
+     font-size: 60px;
+    color:white;
+    margin-left: 750px;
+    margin-right: 130px;
+    padding-bottom: 300px;
+    margin-top: -150px;
+    display: flex;
+}
+.cup:hover{
+    color:blueviolet;
+    font-size:70px ;
+}
+.number2
+{
+    font-size: 25px;
+    color: white;
+   padding-left: 770px;
+   margin-top:-290px;
+   display: flex;
+    
+    
+}
+.clients2
+{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 730px;
+    display: flex;
+}
+
+   
+.mug{
+     font-size: 60px;
+    color:white;
+     margin-left: 1250px;
+     margin-right: 130px;
+     margin-top: -150px;
+     display: flex;
+}
+.mug:hover{
+    color:blueviolet;
+    font-size:70px ;
+}
+.number3
+{
+    font-size: 25px;
+    color: white;
+   padding-left: 1250px;
+   margin-top:20px;
+   display: flex;
+    
+    
+}
+.clients3
+{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    padding-left: 1210px;
+    display: flex;
+}
+.file{
+     font-size: 60px;
+    color:white;
+    margin-left: 1700px;
+    margin-top: -140px;
+
+}
+.file:hover{
+    color:blueviolet;
+    font-size:70px ;
+}
+.number4
+{
+    font-size: 25px;
+    color: white;
+   padding-left: 1710px;
+   margin-top:-60px;
+   display: flex;
+    
+    
+}
+.clients4
+{
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+    padding-left: 1630px;
+    display: flex;
+}
+/*//////////تم الانتهاء من السكشن السابع//////*/
+.sec8{
+    height:1000px;
+    width:100%;
+    background-color:white;
+text-align: center;}
+
+.pricing{
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+.line5{
+    width:150px;
+    border:3px solid blueviolet;
+    margin-left: 930px;
+    margin-top: -40px;
+}
+
+    .sec81{
+        height:500px;
+        width:400px;
+        border:2px solid blueviolet;
+            border-radius:10px;
+        float: left;
+        margin-left: 300px;
+        margin-right: 75px;
+        margin-top: 100px;
+        text-align: center;
+        position: relative;
+
+    }
+.sec81::after{
+    content:"";
+    position:absolute;
+    height:0%;
+    width: 400px;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+    opacity: .4;
+
+}
+.sec81:hover::after{
+    height:100%;
+    width: 100%;
+    transition: 1s;
+}
+    .dior{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .circle1{
+        width: 150px;
+        height: 150px;
+        border: 2px solid blueviolet;
+        border-radius: 75px;
+        margin-left: 120;
+    }
+    
+    .five{
+        font-size: 60px;
+        margin-top: -2px;
+        padding-top: 10px;
+      
+    }
+    .hunderd{
+     margin-top: -50px;
+    }
+
+    .now{
+        width:200px;
+        border:2px solid blueviolet;
+        border-radius: 10px;
+        height: 35px;
+        margin-top: 30px;
+    }
+    .sec81:hover .now{
+        position:relative;
+        z-index: 1;
+    }
+    .fresh{
+        margin-top: 30px;
+    }
+    .confident{
+        margin-top: 30px;
+    }
+    .nature{
+        margin-top: 20px;
+    }
+  .sec82{
+        height:500px;
+        width:400px;
+        border:2px solid blueviolet;
+            border-radius:10px;
+        float: left;
+        margin-right:75px;
+         margin-top: 100px;
+         position: relative;  
+    }
+    .sec82::after{
+    content:"";
+    position:absolute;
+    height:0%;
+    width: 400px;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+    opacity: .4;
+
+}
+.sec82:hover::after{
+    height:100%;
+    width: 100%;
+    transition: 1s;
+}
+  .sec82:hover .now{
+        position:relative;
+        z-index: 1;
+    }
+      .sec83{
+        height:500px;
+        width:400px;
+        border:2px solid blueviolet;
+        border-radius:10px;
+        float: left;
+         margin-top: 100px;
+         position: relative;
+    }
+    .sec83::after{
+    content:"";
+    position:absolute;
+    height:0%;
+    width: 400px;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+    opacity: .4;
+
+}
+.sec83:hover::after{
+    height:100%;
+    width: 100%;
+    transition: 1s;
+}
+  .sec83:hover .now{
+        position:relative;
+        z-index: 1;
+    }
+/*//////////تم الانتهاء من السكشن التامن//////*/
+.sec9{
+    height:450px;
+    width:100%;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-16\ at\ 2.06.35\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.person1{
+     width: 150px;
+        height: 150px;
+        border: 2px solid blueviolet;
+        border-radius: 75px;
+        margin-left: 300px;
+        margin-top: 150px;
+        background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.21\ AM.jpeg);
+        background-position: center;
+        background-size: cover;
+      
+       
+}
+.salah{
+    color:white;
+    font-size:35px;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.player{
+    color:white;
+    font-size:25px;
+    margin-left: 500px;
+}
+.template{
+    font-size: 20px;
+    color:white;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.be{
+    font-size: 20px;
+    color:white;
+    margin-left: 300px;
+}
+.person2{
+     width: 150px;
+        height: 150px;
+        border: 2px solid blueviolet;
+        border-radius: 75px;
+        margin-left: 1200;
+        margin-top: -270px;
+        background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.27\ AM.jpeg);
+        background-position: center;
+        background-size: cover; 
+}
+.trent{
+    font-size:35px;
+    color: white;
+    margin-left:1400px ;
+    margin-top: -150px;
+
+}
+.player2{
+    font-size: 25px;
+    color:white;
+    margin-left: 1400px;
+    
+}
+.sec9:hover .player2{
+    color: red;
+}
+.sec9:hover .player{
+    color: red;
+}
+.template2{
+    font-size: 20px;
+    margin-left: 1200px;
+    color: white;
+    margin-top: 90px;
+}
+.be2{
+    font-size: 20px;
+    margin-left: 1200px;
+    color:white;
+}
+/*//////////تم الانتهاء من السكشن التاسع//////*/
+.sec10{
+    height:900px;
+    width:100%;
+    background-color: white;
+    text-align: center;
+}
+
+.team{
+    font-size:50px;
+    margin-top: 100px;
+}
+.line6{
+    width:120px;
+    border:4px solid blueviolet;
+    border-radius: 4px;
+    margin-top: -40px;
+    margin-left: 940px;
+
+}
+.sec101{
+width:25%;
+height:500px;
+border:2px solid black;
+border-radius: 5px;
+float: left;
+margin-left: 7.5%;
+margin-right: 5%;
+margin-top: 100px;
+background-color:rgba(.2 , 1 , .7 , .3);
+position: relative;
+}
+.sec101::after{
+   content:"";
+   position: absolute;
+   width:100%;
+   height:0;
+   top:0;
+   left: 0;
+   background-color: blueviolet;
+   opacity: .3;
+}
+.sec101:hover::after{
+    height:100%;
+    transition: 1s;
+}
+.imgsec101{
+    width:400px;
+    height:350px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.21\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.logos{
+    width:20px;
+    height:150px;
+    background-color: blueviolet;
+    float: right;
+    opacity: 0;
+}
+.sec101:hover .logos{
+    opacity: 1;
+    height: 200px;
+    width: 40px;
+}
+.facebook{
+    font-size: 25px;
+    opacity: 0;
+    margin-top: 20px;
+}
+.sec101:hover .facebook{
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.twitter{
+    font-size: 40px;
+    margin-top: 10px;
+    opacity: 0;
+}
+.sec101:hover .twitter{
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.linked{
+    font-size: 40px;
+    margin-top: 10px;
+    opacity: 0;
+}
+.sec101:hover .linked{
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sobo{
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+.job{
+    font-size: 25px;
+    color: white;
+}
+.sec101:hover .job{
+    color:blueviolet;
+}
+
+.sec102{
+width:25%;
+height:500px;
+border:2px solid black;
+border-radius: 5px;
+float: left;
+margin-right: 5%;
+margin-top: 100px;
+background-color:rgba(.2 , 1 , .7 , .3);
+ position: relative;
+
+}
+.sec102::after{
+   content:"";
+   position: absolute;
+   width:100%;
+   height:0;
+   top:0;
+   left: 0;
+   background-color: blueviolet;
+   opacity: .3;
+
+}
+.sec102:hover::after{
+    height:100%;
+    transition: 1s;
+}
+.imgsec102{
+    width:400px;
+    height:350px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.27\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.sec102:hover .logos{
+     opacity: 1;
+    height: 200px;
+    width: 40px;
+}
+.sec102:hover .facebook{
+   opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec102:hover .twitter{
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec102:hover .linked{
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec102:hover .job{
+    color:blueviolet;
+}
+.sec103{
+width:25%;
+height:500px;
+border:2px solid black;
+border-radius: 5px;
+float: left;
+margin-top: 100px;
+background-color:rgba(.2 , 1 , .7 , .3);
+position: relative;
+}
+.sec103::after{
+   content:"";
+   position: absolute;
+   width:100%;
+   height:0;
+   top:0;
+   left: 0;
+   background-color: blueviolet;
+   opacity: .3;
+}
+.sec103:hover::after{
+    height:100%;
+    transition: 1s;
+}
+.imgsec103{
+    width:400px;
+    height:350px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 11.01.24\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.sec103:hover .logos{
+   opacity: 1;
+    height: 200px;
+    width: 40px;
+}
+.sec103:hover .facebook{
+     opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;}
+.sec103:hover .twitter{
+     opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec103:hover .linked{
+ 
+    opacity: 1;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec103:hover .job{
+    color:blueviolet;
+}
+
+/*//////////تم الانتهاء من السكشن العاشر//////*/
+.sec11{
+    height:1000px;
+    width:100%;
+    background-color:white;
+    text-align: center;
+}
+.line7{
+    width:110px;
+    border:3px solid blueviolet;
+    border-radius: 4px;
+    margin-left: 47%;
+    margin-top: -30px;
+}
+.recent{
+    font-size: 50px;
+    margin-top: 100px;
+   
+}
+.sec111{
+    width:400px;
+    height:700px;
+    border:2px solid blueviolet;
+    border-radius:10px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 70px;
+    position: relative;
+
+}
+.sec111::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:0;
+    top:0;
+    left:0;
+    background-color:blueviolet;
+    opacity:.3;
+}
+.sec111:hover::before{
+    height:100%;
+    transition:1s;
+   
+}
+.sec111img{
+    width:300px;
+    height:200px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 1.36.58\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.sec111 .sec111img{
+    position: relative;
+}
+
+.facebook111{
+    width: 0px;
+    height: 0px;
+    margin-left:-290px;
+    margin-right: 30px;
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 20px;
+    
+}
+.alison{
+    margin-top: 0px;
+    margin-left: -170px;
+    margin-right:20 ;
+}
+.sec111:hover .alison{
+    color:blueviolet;
+}
+
+.linked111{
+    width: 0px;
+    height: 0px;
+    margin-left:-40px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: -47px;
+    
+}
+.dec{
+    margin-left: 70px;
+    margin-top: -44px;
+    margin-right: 20px;
+}
+.sec111:hover .dec{
+    color:blueviolet;
+}
+
+.twitter111{
+    width: 0px;
+    height: 0px;
+    margin-left:170px;
+    margin-right: 30px;
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: -50px;
+}
+.num75{
+    margin-left: 240px;
+    margin-top:-45px;
+}
+.sec111:hover .num75{
+    color:blueviolet;
+}
+.goal{
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: -20px;
+    position: relative;
+    z-index: 1;
+}
+.sec111:hover .goal{
+    color:white;
+}
+
+.helps{
+    font-size: 20;
+    padding-top: 10px;}
+   
+ .read2
+    {
+        padding: 40px;
+        font-size: 25px;
+        color:blueviolet;
+    }
+.sec111:hover .helps{
+        color:blueviolet
+    }
+
+.sec112{
+    width:400px;
+    height:700px;
+    border:2px solid blueviolet;
+    border-radius:10px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    position: relative;
+
+    
+}
+.sec112::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:0;
+    top:0;
+    left:0;
+    background-color:blueviolet;
+    opacity:.3;
+}
+.sec112:hover::before{
+    height:100%;
+    transition:1s;
+}
+.sec112img{
+    width:300px;
+    height:200px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 1.36.58\ PM\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.sec112 .sec112img{
+    position: relative;
+}
+.sec112:hover .helps{
+        color:blueviolet
+    }
+ .sec112:hover .alison{
+    color:blueviolet;
+}
+.sec112:hover .dec{
+    color:blueviolet;
+}
+.sec112:hover .num75{
+    color:blueviolet;
+}
+.sec112:hover .goal{
+    color:white;
+}
+.sec113{
+    width:400px;
+    height:700px;
+    border:2px solid blueviolet;
+    border-radius:10px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+      margin-top: 70px;
+      position: relative;
+}
+.sec113::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:0;
+    top:0;
+    left:0;
+    background-color:blueviolet;
+    opacity:.3;
+}
+.sec113:hover::before{
+    height:100%;
+    transition:1s;
+}
+.sec113img{
+    width:300px;
+    height:200px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 1.36.58\ PM\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.sec113 .sec113img{
+    position: relative;
+}
+.read3{
+       padding: 90px;
+        font-size: 25px;
+        color:blueviolet;
+}
+.sec113:hover .helps{
+        color:blueviolet
+    }
+
+.sec113:hover .alison{
+    color:blueviolet;
+}
+.sec113:hover .dec{
+    color:blueviolet;
+}
+.sec113:hover .num75{
+    color:blueviolet;
+}
+.sec113:hover .goal{
+    color:white;
+}
+.sec12{
+    height:400px;
+    width:100%;
+    background-color:rgba(75,0,130,.2);
+    overflow: hidden;
+  
+}
+.sec12img{
+    width:300px;
+    height:250px;
+
+    margin-left: 45%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url(../images/WhatsApp\ Image\ 2026-03-26\ at\ 1.42.35\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.iconsec12{
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(75,0,130,.3);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px; /* نفس ال height */
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.iconsec12:hover{
+    background-color: blueviolet;
+}
+.iconsec121{
+    margin-left: 830px;
+}
+.num2021{
+    
+    margin-left: 900px;
+    opacity: .8;
+}
+
+
+
