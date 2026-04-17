@@ -1905,6 +1905,8 @@ position: relative;
         padding: 40px;
         font-size: 25px;
         color:blueviolet;
+        cursor: pointer;
+        position: relative;
     }
 .sec111:hover .helps{
         color:blueviolet
@@ -2007,6 +2009,8 @@ position: relative;
        padding: 90px;
         font-size: 25px;
         color:blueviolet;
+        cursor: pointer;
+        position: relative;
 }
 .sec113:hover .helps{
         color:blueviolet
