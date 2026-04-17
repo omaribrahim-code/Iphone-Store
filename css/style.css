@@ -124,12 +124,14 @@
     background-position: center;
     margin-top: 65px;
     text-align: center;
-  
+   padding-top: 300px;
 
 }
 .creative{
-    font-size: 50px;
-    padding-top: 350px;
+    font-size: 70px;
+  
+    display: inline-block;
+    
     
 }
 .sec2 p{
@@ -159,36 +161,35 @@
    }
 .btn1{
     width:200px;
-    height: 45px;
-    border-radius: 10px;
+    height: 65px;
+    border-radius: 25px;
     margin-right: 70px;
      margin-top: 30px;
-
-
+     font-size: 30px;
 }
 .btn1:hover{
-    opacity: .4;
-    width:250px;
-    height:50px;
-    background-color: blueviolet;
-    color:azure;
+    opacity:.4;
 }
 .btn2{
-   width:200px;
-    height: 45px;
-    margin-top: 30px;
-    border-radius: 10px;
-    background-color: blueviolet;
-    color:white;
-    
+    width:200px;
+    height: 65px;
+    border-radius: 25px;
+    margin-right: 70px;
+     margin-top: 30px;
+     font-size: 30px;
+    background-color: blueviolet; 
+    color: white;
 }
 .btn2:hover{
     opacity: .4;
-     width:250px;
-    height:50px;
-    background-color:gray;
-    color:blanchedalmond;
+  
 
+}
+.zoom{
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -35px;
 }
    
 /*///////////////////////السكشن التاني تم الانتهاء منه//////////*/
@@ -237,15 +238,29 @@
     height:0;
     top:0;
     left:0;
-
+    pointer-events: none;
 }
 .setting:hover::after{
     width:100%;
     height:100%;
-    transition: 1s;
+    transition: .5s;
     background-color: blueviolet;
-    opacity: .3;
+    opacity: .5;
 
+}
+.fully{
+    margin-top: 20px;
+    font-size: 30px;
+     position: relative;
+    z-index: 1;
+}
+.setting:hover .fully{
+    color:white;
+
+}
+.read{
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 
@@ -267,20 +282,25 @@
     height:0;
     top:0;
     left:0;
+    pointer-events: none;
 
 }
 .edit:hover::after{
     width:100%;
     height:100%;
-    transition: 1s;
+     transition: .5s;
     background-color: blueviolet;
-    opacity: .3;
+    opacity: .5;
+
 
 }
 .wand{
     font-size: 40px;
     color: blueviolet;
     margin-top: 50px;
+}
+.edit:hover .fully{
+    color:white;
 }
 .phone{
     width:25%;
@@ -300,26 +320,27 @@
     height:0;
     top:0;
     left:0;
+    pointer-events: none;
 
 }
 .phone:hover::after{
     width:100%;
     height:100%;
-    transition: 1s;
+    transition: .5s;
     background-color: blueviolet;
-    opacity: .3;
+    opacity: .5;
 
 }
 .mobile{
     font-size: 40px;
     color: blueviolet;
     margin-top: 50px;}
-
-
-
 .fully{
     margin-top: 20px;
     font-size: 30px;
+}
+.phone:hover .fully{
+    color:white;
 }
 .ai{
     margin-top: -10px;
@@ -327,10 +348,9 @@
 }
 .read{
     padding-top:40px;
-    color: blueviolet;
+    color: blue;
     font-size: 25px;
-   
-
+    text-decoration: none;
 }
 .perfume{
     letter-spacing: 3.5px;}
@@ -371,7 +391,22 @@
      background-size: cover;
     background-position: center;
     text-align: center;
+    position:relative;
     
+}
+.sec41::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec41:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
 }
 .sec41:hover .category{
      opacity: 1;
@@ -383,25 +418,19 @@
 }
 .sec41:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
-      color: white;
-
+     margin-top: 150px;
+     color: white;
 }
 .sec41:hover .love{
     opacity: 1;
-    margin-top: 250px;
-   
-  
+    margin-top: 50px;
+
 }
 .sec41:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-  
-   
-
-}
+     margin-top: 50px;
+     margin-left: -100px;}
+    
 .sec42{
     height:350px;
     width:400px;
@@ -416,10 +445,20 @@
     background-position: center;
      text-align: center;
      position:relative
-    
-
-    
-
+}
+.sec42::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec42:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
 }
 .sec42:hover .category{
      opacity: 1;
@@ -430,24 +469,16 @@
 }
 .sec42:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
-
-}
+     margin-top: 150;}
 .sec42:hover .love{
     opacity: 1;
-    margin-top: 250px;
-   
-    
+   margin-top: 50px;
 
 }
 .sec42:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-   
-   
-
+     margin-top: 50px;
+      margin-left: -100px;
 }
 .sec43{
     height:350px;
@@ -465,6 +496,20 @@
    
 
 }
+.sec43::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec43:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
+}
 .sec43:hover .category{
      opacity: 1;
       margin-left: 120px;
@@ -475,28 +520,17 @@
 }
 .sec43:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
-      color: white;
-
-}
+     margin-top: 150;
+      color: white;}
 .sec43:hover .love{
     opacity: 1;
-    margin-top: 250px;
-    
-    
-
+  margin-top: 50px;
 }
 .sec43:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-   
-   
-
+   margin-top: 50px;
+    margin-left: -100px;
 }
-
-
 .sec44{
     height:350px;
     width:400px;
@@ -513,6 +547,20 @@
        position: relative;
    
 }
+.sec44::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec44:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
+}
 .sec44:hover .category{
      opacity: 1;
       margin-left: 120px;
@@ -521,25 +569,19 @@
 }
 .sec44:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
+     margin-top: 150;
+    
       color: white;
 
 }
 .sec44:hover .love{
     opacity: 1;
-    margin-top: 250px;
-    
-    
-
+   margin-top: 50px;
 }
 .sec44:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-  
-   
-
+    margin-top: 50px;
+     margin-left: -100px;
 }
 .sec45{
     height:350px;
@@ -555,8 +597,20 @@
     background-position: center;
      text-align: center;
        position: relative;
-   
-
+}
+.sec45::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec45:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
 }
 .sec45:hover .category{
      opacity: 1;
@@ -568,25 +622,18 @@
 }
 .sec45:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
+     margin-top: 150;
        color:wheat;
 
 }
 .sec45:hover .love{
     opacity: 1;
-    margin-top: 250px;
-   
-    
-
+   margin-top: 50px;
 }
 .sec45:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-    
-   
-
+    margin-top: 50px;
+     margin-left: -100px;
 }
 .sec46{
     height:350px;
@@ -602,6 +649,20 @@
      text-align: center;
        position: relative;
 }
+.sec46::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: darkslategrey;
+}
+.sec46:hover::after{
+     width:100%;
+     height:100%;
+     opacity: .4;
+}
 .sec46:hover:hover .category{
      opacity: 1;
       margin-left: 120px;
@@ -609,25 +670,19 @@
       color:white;}
 .sec46:hover .floral{
      opacity: 1;
-     margin-top: 170;
-      margin-left: 100px;
+     margin-top: 150;
+     
       color:white;
 
 }
 .sec46:hover .love{
     opacity: 1;
-    margin-top: 250px;
-    
-    
-
+  margin-top: 50px;
 }
 .sec46:hover .point{
      opacity: 1;
-     margin-top: 250px;
-     margin-left: -50px;
-   
-   
-
+     margin-top: 50px;
+      margin-left: -100px;
 }
 .category{
     opacity:0;
@@ -636,8 +691,9 @@
 }
 .floral{
     opacity: 0;
-  position: absolute;
     margin-top:40px;
+    position: relative;
+    z-index: 1;
 }
 .love{
   opacity: 0;
@@ -646,6 +702,9 @@
     background-color: white;
     width: 40px;
     height: 30px;
+     position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 .point{
   opacity: 0;
@@ -654,22 +713,14 @@
   background-color:white;
     height: 30px;
     width: 40px;
-   
-            
-
+    position: relative;
+    z-index: 1;
+    cursor:pointer;
 }
-.love:hover{
- 
-    color: red;
-    background-color: rgba(1, 0, 0, .7)
-}
-.point:hover{
-    
- 
-    color:blue;
-    background-color: rgba(1, 0, 0, .7)
-
-}
+.love:hover{color: red;
+    background-color: rgba(1, 0, 0, .7)}
+.point:hover{color:blue;
+    background-color: rgba(1, 0, 0, .7)}
 
 /*//////////تم الانتهاء من السكشن الرابع///////*/
 
@@ -707,15 +758,24 @@
     margin-left: -40px;
   
 }
+.sec51:hover .wide{
+    color:blueviolet;
+}
 .inter{
     margin-top: -20px;
     font-size: 35px;
     margin-left: -60px;
 }
+.sec51:hover .inter{
+    color:blueviolet;
+}
 .perfume2{
     margin-top: -20px;
     font-size: 35px;
     margin-left: -120px;
+}
+.sec51:hover .perfume2{
+    color:blueviolet;
 }
 .explora{
     font-size: 25px;
@@ -723,15 +783,12 @@
     margin-left: 60px;
      opacity: .4;
 }
-
-
 .brands{
     margin-left: 40px;
     font-size: 25px;
     margin-top: -20px;
      opacity: .4;
 }
-
 .every{
        margin-left: -120px;
     font-size: 25px;
@@ -740,7 +797,6 @@
      .sec51:hover p{
         opacity:1;
      }
-
 .sec51::after{
     content:"";
     position: absolute;
@@ -756,8 +812,6 @@
     height:100%;
     transition: 1s;
 }
-
-
 .sec52{
      width:450px;
     height:300px;
@@ -773,10 +827,16 @@
      margin-top: -30px;
    
 }
+.sec52:hover .exclusive{
+    color:blueviolet;
+}
 .fragrance{
     font-size: 35px;
      margin-left: -107px;
      margin-top: -30px;     
+}
+.sec52:hover .fragrance{
+    color:blueviolet;
 }
 .discover{
   font-size: 20px;
@@ -840,11 +900,17 @@ float: left;
     margin-top: -45px;
     margin-left: 35px;
 }
+.sec53:hover .easy{
+    color:blueviolet;
+}
 .shop{
     font-size: 35px;
     margin-top: -35px;
     margin-left: 35px;
  
+}
+.sec53:hover .shop{
+    color:blueviolet;
 }
 .enjoy{
      font-size: 25px;
@@ -918,6 +984,13 @@ float: left;
     height:100%;
     transition: 1s;
 }
+.sec54:hover .wide{
+    color:blueviolet;
+}.sec54:hover .inter{
+    color:blueviolet;
+}.sec54:hover .perfume2{
+    color:blueviolet;
+}
 .sec55{
     width:450px;
     height:300px;
@@ -945,7 +1018,13 @@ float: left;
     height:100%;
     transition: 1s;
 }
-
+.sec55:hover .wide{
+    color:blueviolet;
+}.sec55:hover .inter{
+    color:blueviolet;
+}.sec55:hover .perfume2{
+    color:blueviolet;
+}
 .sec56{
     width:450px;
     height:300px;
@@ -978,6 +1057,13 @@ float: left;
     margin-top: 40px;
     font-size: 50px;
     color: blueviolet;
+}
+.sec56:hover .wide{
+    color:blueviolet;
+}.sec56:hover .inter{
+    color:blueviolet;
+}.sec56:hover .perfume2{
+    color:blueviolet;
 }
 
 /*//////////تم الانتهاء من السكشن الخامس//////*/
@@ -1107,11 +1193,6 @@ margin-left: 250px;
 display: flex;
  
 }
-.people:hover{
-    color:blueviolet;
-    font-size:70px ;
-}
-
 .number1
 {
     font-size: 25px;
@@ -1122,7 +1203,6 @@ display: flex;
     
     
 }
-
 .clients1
 {
     font-size: 25px;
@@ -1131,7 +1211,6 @@ display: flex;
     padding-left: 230px;
     display: flex;
 }
-
 .cup{
      font-size: 60px;
     color:white;
@@ -1140,10 +1219,6 @@ display: flex;
     padding-bottom: 300px;
     margin-top: -150px;
     display: flex;
-}
-.cup:hover{
-    color:blueviolet;
-    font-size:70px ;
 }
 .number2
 {
@@ -1163,8 +1238,6 @@ display: flex;
     padding-left: 730px;
     display: flex;
 }
-
-   
 .mug{
      font-size: 60px;
     color:white;
@@ -1172,10 +1245,6 @@ display: flex;
      margin-right: 130px;
      margin-top: -150px;
      display: flex;
-}
-.mug:hover{
-    color:blueviolet;
-    font-size:70px ;
 }
 .number3
 {
@@ -1201,10 +1270,6 @@ display: flex;
     margin-left: 1700px;
     margin-top: -140px;
 
-}
-.file:hover{
-    color:blueviolet;
-    font-size:70px ;
 }
 .number4
 {
@@ -1277,6 +1342,9 @@ text-align: center;}
         font-size: 30px;
         margin-top: 20px;
     }
+.sec81:hover .dior{
+      color: blueviolet;
+}
     .circle1{
         width: 150px;
         height: 150px;
@@ -1346,6 +1414,9 @@ text-align: center;}
         position:relative;
         z-index: 1;
     }
+    .sec82:hover .dior{
+      color: blueviolet;
+}
       .sec83{
         height:500px;
         width:400px;
@@ -1376,6 +1447,9 @@ text-align: center;}
         position:relative;
         z-index: 1;
     }
+    .sec83:hover .dior{
+      color: blueviolet;
+}
 /*//////////تم الانتهاء من السكشن التامن//////*/
 .sec9{
     height:450px;
