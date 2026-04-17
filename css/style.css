@@ -1844,6 +1844,8 @@ position: relative;
     font-size: 30px;
     color: blueviolet;
     margin-top: 20px;
+    position: relative;
+    cursor: pointer;
     
 }
 .alison{
@@ -1863,6 +1865,8 @@ position: relative;
     font-size: 30px;
     color: blueviolet;
     margin-top: -47px;
+    position: relative;
+    cursor: pointer;
     
 }
 .dec{
@@ -1882,6 +1886,8 @@ position: relative;
     font-size: 30px;
     color: blueviolet;
     margin-top: -50px;
+    position: relative;
+    cursor: pointer;
 }
 .num75{
     margin-left: 240px;
