@@ -794,7 +794,8 @@
     font-size: 25px;
     margin-top: -20px;
      opacity: .4;}
-     .sec51:hover p{
+    
+ .sec51:hover p{
         opacity:1;
      }
 .sec51::after{
@@ -1057,6 +1058,10 @@ float: left;
     margin-top: 40px;
     font-size: 50px;
     color: blueviolet;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  
 }
 .sec56:hover .wide{
     color:blueviolet;
